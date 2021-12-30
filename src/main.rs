@@ -62,7 +62,11 @@ fn main() {
             &font,
             &text,
         );
-        i = i + 1;
+        if i == 2022 {
+            i = 0;
+        } else {
+            i = i + 1;
+        }
 
         let mut x = 0;
         let mut y = 0;
